@@ -9,6 +9,6 @@ count = 0
 while check:
     cv2.imwrite('%d.png' % count, img)
     
-    check, image = video.read()
+    check, img = video.read()
 
     count += 1 
